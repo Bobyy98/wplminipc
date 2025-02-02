@@ -1,0 +1,94 @@
+/* BuildGuides.css */
+.build-guides {
+    background-color: #111;
+    color: white;
+    padding: 50px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.build-guides-text {
+    max-width: 400px;
+    margin-right: 30px;
+}
+
+.build-guides h3 {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.build-guides p {
+    font-size: 20px;
+    color: #aaa;
+    margin-bottom: 20px;
+}
+
+.view-guides-button {
+    background-color: #1f78b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.view-guides-button:hover {
+    background-color: #166493;
+}
+
+.build-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    background-color: black;
+    padding: 15px;
+}
+
+.card-content h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.card-content p {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 5px;
+}
+
+.card-content .price {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}

@@ -1,0 +1,21 @@
+/* src/pages/Wip.css */
+
+.work-in-progress-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: white;
+}
+
+.wip-background {
+    position: absolute; /* Cover the entire viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(10, 25, 47, 0.9), rgba(10, 25, 47, 0.9)), url('../assets/bg.jpg') center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5; /* Ensures background is below navbar and form */
+}

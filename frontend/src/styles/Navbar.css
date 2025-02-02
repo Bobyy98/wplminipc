@@ -1,0 +1,56 @@
+/* Navbar.css */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000; /* Ensure navbar is always on top */
+}
+
+.navbar .logo {
+    margin-right: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul.nav-left {
+    display: flex;
+    flex: 1;
+}
+
+.navbar ul.nav-right li a {
+    display: flex;
+    font-size: 15px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar ul li a:hover {
+    background-color: #575757;
+}
+
+.welcome-message {
+    margin-top: 8px;
+    color: #ffffff; 
+    font-weight: bold;
+    font-size: 1.1rem; 
+    margin-right: 15px; 
+    padding: 10px; 
+}
+
